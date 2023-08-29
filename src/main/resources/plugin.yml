@@ -1,0 +1,7 @@
+name: "${name}"
+version: "${version}"
+main: paper.template.TemplatePlugin
+api-version: "${apiVersion}"
+load: STARTUP
+libraries:
+  - "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"

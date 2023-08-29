@@ -1,0 +1,13 @@
+[versions]
+kotlin = "1.8.22"
+paper = "1.20.1-R0.1-SNAPSHOT"
+paper-api = "1.20"
+paperweight-userdev = "1.5.5"
+run-paper = "2.1.0"
+
+[libraries]
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+paperweight-userdev = { id = "io.papermc.paperweight.userdev", version.ref = "paperweight-userdev" }
+run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }
